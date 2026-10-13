@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="University API Suite">
+    <listeners>
+        <listener class-name="com.example.university.listeners.ExtentReportListener" />
+    </listeners>
+    <test name="API Tests">
+        <classes>
+            <class name="com.example.university.tests.UniversityHappyPathTest" />
+            <class name="com.example.university.tests.UniversityNegativeTest" />
+        </classes>
+    </test>
+</suite>
