@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-12T17:49:45 IST" name="Surefire suite" finished-at="2026-10-12T17:49:49 IST" duration-ms="3780">
+    <groups>
+    </groups>
+    <test started-at="2026-10-12T17:49:45 IST" name="Surefire test" finished-at="2026-10-12T17:49:49 IST" duration-ms="3780">
+      <class name="com.example.university.tests.UniversityNegativeTest">
+        <test-method signature="invalidPathReturns404()[pri:0, instance:com.example.university.tests.UniversityNegativeTest@4da4253]" started-at="2026-10-12T17:49:49 IST" name="invalidPathReturns404" description="Invalid URL path - 404" finished-at="2026-10-12T17:49:49 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPathReturns404 -->
+        <test-method signature="missingApiKeyReturns401()[pri:0, instance:com.example.university.tests.UniversityNegativeTest@4da4253]" started-at="2026-10-12T17:49:49 IST" name="missingApiKeyReturns401" description="Missing API key - unauthorized" finished-at="2026-10-12T17:49:49 IST" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- missingApiKeyReturns401 -->
+        <test-method signature="missingAuthReturns404()[pri:0, instance:com.example.university.tests.UniversityNegativeTest@4da4253]" started-at="2026-10-12T17:49:49 IST" name="missingAuthReturns404" description="Missing Auth" finished-at="2026-10-12T17:49:49 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- missingAuthReturns404 -->
+        <test-method signature="missingUniversityNameParameter()[pri:0, instance:com.example.university.tests.UniversityNegativeTest@4da4253]" started-at="2026-10-12T17:49:49 IST" name="missingUniversityNameParameter" description="Missing required query parameter" finished-at="2026-10-12T17:49:49 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- missingUniversityNameParameter -->
+        <test-method signature="unencodedQueryParameter()[pri:0, instance:com.example.university.tests.UniversityNegativeTest@4da4253]" started-at="2026-10-12T17:49:49 IST" name="unencodedQueryParameter" description="Query parameter with URL encoding disabled" finished-at="2026-10-12T17:49:49 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unencodedQueryParameter -->
+      </class> <!-- com.example.university.tests.UniversityNegativeTest -->
+      <class name="com.example.university.tests.UniversityHappyPathTest">
+        <test-method signature="createUniversityReturns201()[pri:0, instance:com.example.university.tests.UniversityHappyPathTest@55b53d44]" started-at="2026-10-12T17:49:45 IST" name="createUniversityReturns201" description="POST university - success" finished-at="2026-10-12T17:49:48 IST" duration-ms="2743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUniversityReturns201 -->
+        <test-method signature="deleteUniversityReturns204()[pri:0, instance:com.example.university.tests.UniversityHappyPathTest@55b53d44]" started-at="2026-10-12T17:49:48 IST" name="deleteUniversityReturns204" description="DELETE university - success" finished-at="2026-10-12T17:49:48 IST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUniversityReturns204 -->
+        <test-method signature="getAllUniversitiesReturns200()[pri:0, instance:com.example.university.tests.UniversityHappyPathTest@55b53d44]" started-at="2026-10-12T17:49:48 IST" name="getAllUniversitiesReturns200" description="GET all universities - success" finished-at="2026-10-12T17:49:48 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUniversitiesReturns200 -->
+        <test-method signature="getUniversityByIdReturns200()[pri:0, instance:com.example.university.tests.UniversityHappyPathTest@55b53d44]" started-at="2026-10-12T17:49:48 IST" name="getUniversityByIdReturns200" description="GET university by ID - success" finished-at="2026-10-12T17:49:49 IST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUniversityByIdReturns200 -->
+        <test-method signature="getUniversityByNameReturns200()[pri:0, instance:com.example.university.tests.UniversityHappyPathTest@55b53d44]" started-at="2026-10-12T17:49:49 IST" name="getUniversityByNameReturns200" description="GET university by name - success" finished-at="2026-10-12T17:49:49 IST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUniversityByNameReturns200 -->
+        <test-method signature="updateUniversityReturns201()[pri:0, instance:com.example.university.tests.UniversityHappyPathTest@55b53d44]" started-at="2026-10-12T17:49:49 IST" name="updateUniversityReturns201" description="PUT university - success" finished-at="2026-10-12T17:49:49 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUniversityReturns201 -->
+      </class> <!-- com.example.university.tests.UniversityHappyPathTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

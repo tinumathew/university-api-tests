@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="5.553" tests="11" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/tinu_mathew/university-api-tests/target/test-classes:/home/tinu_mathew/university-api-tests/target/classes:/home/tinu_mathew/.m2/repository/io/rest-assured/rest-assured/6.1.0/rest-assured-6.1.0.jar:/home/tinu_mathew/.m2/repository/org/apache/groovy/groovy/5.0.3/groovy-5.0.3.jar:/home/tinu_mathew/.m2/repository/org/apache/groovy/groovy-xml/5.0.3/groovy-xml-5.0.3.jar:/home/tinu_mathew/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/tinu_mathew/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/home/tinu_mathew/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/tinu_mathew/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/home/tinu_mathew/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/home/tinu_mathew/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/home/tinu_mathew/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/home/tinu_mathew/.m2/repository/io/rest-assured/json-path/6.1.0/json-path-6.1.0.jar:/home/tinu_mathew/.m2/repository/org/apache/groovy/groovy-json/5.0.3/groovy-json-5.0.3.jar:/home/tinu_mathew/.m2/repository/io/rest-assured/rest-assured-common/6.1.0/rest-assured-common-6.1.0.jar:/home/tinu_mathew/.m2/repository/io/rest-assured/xml-path/6.1.0/xml-path-6.1.0.jar:/home/tinu_mathew/.m2/repository/org/apache/commons/commons-lang3/3.19.0/commons-lang3-3.19.0.jar:/home/tinu_mathew/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/home/tinu_mathew/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/home/tinu_mathew/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/home/tinu_mathew/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/home/tinu_mathew/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar:/home/tinu_mathew/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/home/tinu_mathew/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/home/tinu_mathew/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/home/tinu_mathew/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/home/tinu_mathew/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/home/tinu_mathew/.m2/repository/io/qameta/allure/allure-testng/2.29.1/allure-testng-2.29.1.jar:/home/tinu_mathew/.m2/repository/io/qameta/allure/allure-java-commons/2.29.1/allure-java-commons-2.29.1.jar:/home/tinu_mathew/.m2/repository/io/qameta/allure/allure-model/2.29.1/allure-model-2.29.1.jar:/home/tinu_mathew/.m2/repository/io/qameta/allure/allure-test-filter/2.29.1/allure-test-filter-2.29.1.jar:"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/tinu_mathew/university-api-tests/target/surefire/surefirebooter-20261012174943987_3.jar /home/tinu_mathew/university-api-tests/target/surefire 2026-10-12T17-49-43_666-jvmRun1 surefire-20261012174943987_1tmp surefire_0-20261012174943987_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/tinu_mathew/university-api-tests/target/test-classes:/home/tinu_mathew/university-api-tests/target/classes:/home/tinu_mathew/.m2/repository/io/rest-assured/rest-assured/6.1.0/rest-assured-6.1.0.jar:/home/tinu_mathew/.m2/repository/org/apache/groovy/groovy/5.0.3/groovy-5.0.3.jar:/home/tinu_mathew/.m2/repository/org/apache/groovy/groovy-xml/5.0.3/groovy-xml-5.0.3.jar:/home/tinu_mathew/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/tinu_mathew/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/home/tinu_mathew/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/tinu_mathew/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/home/tinu_mathew/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/home/tinu_mathew/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/home/tinu_mathew/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/home/tinu_mathew/.m2/repository/io/rest-assured/json-path/6.1.0/json-path-6.1.0.jar:/home/tinu_mathew/.m2/repository/org/apache/groovy/groovy-json/5.0.3/groovy-json-5.0.3.jar:/home/tinu_mathew/.m2/repository/io/rest-assured/rest-assured-common/6.1.0/rest-assured-common-6.1.0.jar:/home/tinu_mathew/.m2/repository/io/rest-assured/xml-path/6.1.0/xml-path-6.1.0.jar:/home/tinu_mathew/.m2/repository/org/apache/commons/commons-lang3/3.19.0/commons-lang3-3.19.0.jar:/home/tinu_mathew/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/home/tinu_mathew/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/home/tinu_mathew/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/home/tinu_mathew/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/home/tinu_mathew/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar:/home/tinu_mathew/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/home/tinu_mathew/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/home/tinu_mathew/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/home/tinu_mathew/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/home/tinu_mathew/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/home/tinu_mathew/.m2/repository/io/qameta/allure/allure-testng/2.29.1/allure-testng-2.29.1.jar:/home/tinu_mathew/.m2/repository/io/qameta/allure/allure-java-commons/2.29.1/allure-java-commons-2.29.1.jar:/home/tinu_mathew/.m2/repository/io/qameta/allure/allure-model/2.29.1/allure-model-2.29.1.jar:/home/tinu_mathew/.m2/repository/io/qameta/allure/allure-test-filter/2.29.1/allure-test-filter-2.29.1.jar:"/>
+    <property name="allure.results.directory" value="/home/tinu_mathew/university-api-tests/target/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/tinu_mathew"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-08-18"/>
+    <property name="java.home" value="/usr/lib/jvm/java-17-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/tinu_mathew/university-api-tests"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/home/tinu_mathew/university-api-tests/target/surefire/surefirebooter-20261012174943987_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.20.1+1-1-22.04-Ubuntu"/>
+    <property name="user.name" value="tinu_mathew"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.8.0-138-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/tinu_mathew/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-17"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="17.0.20.1"/>
+    <property name="user.dir" value="/home/tinu_mathew/university-api-tests"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="java.vm.version" value="17.0.20.1+1-1-22.04-Ubuntu"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="createUniversityReturns201" classname="com.example.university.tests.UniversityHappyPathTest" time="2.829">
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="deleteUniversityReturns204" classname="com.example.university.tests.UniversityHappyPathTest" time="0.105"/>
+  <testcase name="getAllUniversitiesReturns200" classname="com.example.university.tests.UniversityHappyPathTest" time="0.046"/>
+  <testcase name="getUniversityByIdReturns200" classname="com.example.university.tests.UniversityHappyPathTest" time="0.064"/>
+  <testcase name="getUniversityByNameReturns200" classname="com.example.university.tests.UniversityHappyPathTest" time="0.09"/>
+  <testcase name="updateUniversityReturns201" classname="com.example.university.tests.UniversityHappyPathTest" time="0.047"/>
+  <testcase name="invalidPathReturns404" classname="com.example.university.tests.UniversityNegativeTest" time="0.048"/>
+  <testcase name="missingApiKeyReturns401" classname="com.example.university.tests.UniversityNegativeTest" time="0.038"/>
+  <testcase name="missingAuthReturns404" classname="com.example.university.tests.UniversityNegativeTest" time="0.034"/>
+  <testcase name="missingUniversityNameParameter" classname="com.example.university.tests.UniversityNegativeTest" time="0.031"/>
+  <testcase name="unencodedQueryParameter" classname="com.example.university.tests.UniversityNegativeTest" time="0.033"/>
+</testsuite>
